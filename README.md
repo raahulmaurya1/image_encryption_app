@@ -29,7 +29,7 @@
 
 ## 📽️ Flow diagram
 
-
+<img src="https://raw.githubusercontent.com/raahulmaurya1/image_encryption_app/c4427f6c7cf0c972e428af0d37f6e56064148800/diagram.png" alt="Encryption Diagram" width="1100">
 
 ## 🛠️ How It Works
 
@@ -79,7 +79,7 @@ run_image_encryptor()
 
 | Encryption | Decryption | SSIM Score |
 |------------|------------|------------|
-| ![Encrypted](https://github.com/yourgithub/image-encryption-app/blob/main/examples/encrypted.png?raw=true) | ![Decrypted](https://github.com/yourgithub/image-encryption-app/blob/main/examples/decrypted.png?raw=true) | `🧠 SSIM: 0.9987` |
+| ![Encrypted]() | ![Decrypted](https://github.com/yourgithub/image-encryption-app/blob/main/examples/decrypted.png?raw=true) | `🧠 SSIM: 0.9987` |
 
 ---
 
