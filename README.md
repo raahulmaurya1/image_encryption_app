@@ -79,7 +79,24 @@ run_image_encryptor()
 
 | Encryption | Decryption | SSIM Score |
 |------------|------------|------------|
-| ![Encrypted]() | ![Decrypted](https://github.com/yourgithub/image-encryption-app/blob/main/examples/decrypted.png?raw=true) | `🧠 SSIM: 0.9987` |
+| <img src="https://github.com/raahulmaurya1/image_encryption_app/blob/6cdd9e33bb1edde188116b7a14c8c53b2dd034c2/encrypted.png?raw=true" width="200"/> | <img src="https://github.com/raahulmaurya1/image_encryption_app/blob/6cdd9e33bb1edde188116b7a14c8c53b2dd034c2/normal_image.png?raw=true" width="200"/> | `🧠 SSIM: 1.000` |
+
+
+---
+
+## 🧪 Salt-and-Pepper Noise Test
+
+📊 **Histogram:**  
+<img src="https://github.com/raahulmaurya1/image_encryption_app/blob/ce3fa4629c6ffaa509c00f0891a8760cd9e1bf28/Histogram.png?raw=true" width="800" height="300"/>
+
+SSIM between Original and Decrypted Image: `1.0000`
+
+🖼️ **Noisy Image:**  
+<img src="https://github.com/raahulmaurya1/image_encryption_app/blob/ce3fa4629c6ffaa509c00f0891a8760cd9e1bf28/salt_paper_test.png?raw=true" width="800"/>
+
+
+---
+
 
 ---
 
