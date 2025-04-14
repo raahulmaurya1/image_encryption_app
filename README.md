@@ -95,8 +95,6 @@ SSIM between Original and Decrypted Image: `1.0000`
 <img src="https://github.com/raahulmaurya1/image_encryption_app/blob/ce3fa4629c6ffaa509c00f0891a8760cd9e1bf28/salt_paper_test.png?raw=true" width="800"/>
 
 
----
-
 
 ---
 
