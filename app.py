@@ -83,12 +83,12 @@ if mode == "Encrypt":
                 with open(input_path, "wb") as f:
                     f.write(uploaded.getbuffer())
 
-                st.image(input_path, caption="📷 Original Image", use_column_width=True)
+                st.image(input_path, caption="📷 Original Image", use_container_width=True)
 
                 encrypted_image = encrypt_image(input_path, key)
                 encrypted_path = os.path.join("data", "encrypted.png")
                 save_image(encrypted_image, encrypted_path)
-                st.image(encrypted_path, caption="🛡️ Encrypted Image", use_column_width=True)
+                st.image(encrypted_path, caption="🛡️ Encrypted Image", use_container_width=True)
 
                 private_key, public_key = generate_key_pair()
                 signature = sign_image(input_path, private_key)
@@ -123,7 +123,7 @@ elif mode == "Decrypt":
                 decrypted_image = decrypt_image(load_image(encrypted_path), key)
                 decrypted_path = os.path.join("data", "decrypted.png")
                 save_image(decrypted_image, decrypted_path)
-                st.image(decrypted_path, caption="📷 Decrypted Image", use_column_width=True)
+                st.image(decrypted_path, caption="📷 Decrypted Image", use_container_width=True)
 
                 st.success("✅ Decryption Completed!")
 
