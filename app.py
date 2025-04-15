@@ -62,8 +62,8 @@ with st.container():
         else:
             st.markdown("🔐")
     with col2:
-        st.markdown("## 🔐 **AI-Powered Image Encryption & Digital Signature App**")
-        st.markdown("Secure your images with encryption and authenticate them using digital signatures. 🧠✨")
+        st.markdown("## 🔐 **SecurePixelChain**")
+        st.markdown("A Cryptography algorithm ensures image confidentiality with encryption and guarantees integrity through signature verification. 🧠✨")
 
 st.markdown("---")
 
