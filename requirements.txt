@@ -4,3 +4,5 @@ cryptography
 scikit-image
 numpy
 Pillow
+streamlit-lottie
+requests
